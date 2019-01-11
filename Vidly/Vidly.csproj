@@ -189,9 +189,14 @@
     <Compile Include="Migrations\201901110858317_Added_Customer_MembershipType_Tables.Designer.cs">
       <DependentUpon>201901110858317_Added_Customer_MembershipType_Tables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901110901412_Addded_Movie_Genre_Tables.cs" />
+    <Compile Include="Migrations\201901110901412_Addded_Movie_Genre_Tables.Designer.cs">
+      <DependentUpon>201901110901412_Addded_Movie_Genre_Tables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -286,6 +291,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901110858317_Added_Customer_MembershipType_Tables.resx">
       <DependentUpon>201901110858317_Added_Customer_MembershipType_Tables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901110901412_Addded_Movie_Genre_Tables.resx">
+      <DependentUpon>201901110901412_Addded_Movie_Genre_Tables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
