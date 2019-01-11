@@ -193,6 +193,10 @@
     <Compile Include="Migrations\201901110901412_Addded_Movie_Genre_Tables.Designer.cs">
       <DependentUpon>201901110901412_Addded_Movie_Genre_Tables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901110903062_Addded_Rental_Table.cs" />
+    <Compile Include="Migrations\201901110903062_Addded_Rental_Table.Designer.cs">
+      <DependentUpon>201901110903062_Addded_Rental_Table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -202,6 +206,7 @@
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\Rental.cs" />
     <Compile Include="Models\RoleName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -294,6 +299,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901110901412_Addded_Movie_Genre_Tables.resx">
       <DependentUpon>201901110901412_Addded_Movie_Genre_Tables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901110903062_Addded_Rental_Table.resx">
+      <DependentUpon>201901110903062_Addded_Rental_Table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
